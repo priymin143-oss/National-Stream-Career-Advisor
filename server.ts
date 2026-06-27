@@ -12,6 +12,8 @@ const PORT = 3000;
 
 app.use(express.json());
 
+// Initialize Gemini API client if configured
+
 let aiClient: GoogleGenAI | null = null;
 let geminiQuotaExhausted = false;
 
