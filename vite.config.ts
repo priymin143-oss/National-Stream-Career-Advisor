@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: process.env.GITHUB_ACTIONS ? '/Worp-AI.com/' : '/',
+    base: process.env.GITHUB_ACTIONS ? '/National-Stream-Career-Advisor/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
